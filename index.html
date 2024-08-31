@@ -26,7 +26,7 @@
           <!-- Button trigger modal -->
           <button
             type="button"
-            class="btn btn-success"
+            class="btn btn-success mx-3"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
@@ -81,7 +81,7 @@
             </div>
           </div>
 
-          <div class="btn-group">
+          <div class="btn-group mx-3">
             <button
               type="button"
               class="btn btn-secondary dropdown-toggle"
@@ -94,7 +94,9 @@
               <li><a class="dropdown-item" href="#">Profil</a></li>
               <li><a class="dropdown-item" href="#">Accesibility</a></li>
               <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
-              <li><hr class="dropdown-divider" /></li>
+              <li>
+                <hr class="dropdown-divider" />
+              </li>
               <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
             </ul>
           </div>
@@ -102,8 +104,121 @@
       </div>
     </nav>
 
+    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#home-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="home-tab-pane"
+          aria-selected="true"
+        >
+          Home
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile-tab-pane"
+          type="button"
+          role="tab"
+          aria-controls="profile-tab-pane"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="home-tab-pane"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+        tabindex="0"
+      >
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/1.jpg?raw=true"
+            alt="Perrito"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/2.jpg?raw=true"
+            alt="Personas Sonriendo"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
+            alt="Bahia"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/4.jpg?raw=true"
+            alt="Mujer Sonriendo"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/5.jpg?raw=true"
+            alt="Torre Eifel"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
+            alt="CR7"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/7.jpg?raw=true"
+            alt="Familia en el Parque"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/8.jpg?raw=true"
+            alt="PC con Codigo"
+          />
+        </div>
+        <div class="col-4" style="height: 240px">
+          <img
+            class="objet-fit-cover"
+            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/9.jpg?raw=true"
+            alt="Salon de Clase"
+          />
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="profile-tab-pane"
+        role="tabpanel"
+        aria-labelledby="profile-tab"
+        tabindex="0"
+      >
+        ...
+      </div>
+    </div>
+
     <!-- NAV & TAB -->
-    <ul
+    <!-- <ul
       class="nav nav-tabs justify-content-center mt-3"
       id="myTab"
       role="tablist"
@@ -124,7 +239,7 @@
       </li>
       <li class="nav-item" role="presentation">
         <button
-          class="nav-link text-secondary"
+          class="nav-link text-primary"
           id="profile-tab"
           data-bs-toggle="tab"
           data-bs-target="#profile-tab-pane"
@@ -156,7 +271,7 @@
       >
         ...
       </div>
-    </div>
+    </div> -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
