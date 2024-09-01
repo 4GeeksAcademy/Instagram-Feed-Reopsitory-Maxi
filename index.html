@@ -65,6 +65,12 @@
                     <label for="floatingTextarea" class="fw-lighter fs-6"
                       >Add the caption of your post here</label
                     >
+                    <button type="button" class="btn btn-light mt-1">
+                      <i class="fa-solid fa-camera"></i>
+                    </button>
+                    <button type="button" class="btn btn-light mt-1">
+                      <i class="fa-solid fa-location-dot"></i>
+                    </button>
                   </div>
                 </div>
                 <div class="modal-footer">
@@ -116,7 +122,7 @@
           aria-controls="home-tab-pane"
           aria-selected="true"
         >
-          Home
+          <i class="fa-solid fa-table-cells"></i>
         </button>
       </li>
       <li class="nav-item" role="presentation">
@@ -130,90 +136,169 @@
           aria-controls="profile-tab-pane"
           aria-selected="false"
         >
-          Profile
+          <i class="fa-solid fa-square"></i>
         </button>
       </li>
     </ul>
-    <div class="tab-content" id="myTabContent">
+    <div class="tab-content m-1" id="myTabContent">
       <div
-        class="tab-pane fade show active"
+        class="tab-pane fade show active mx-3"
         id="home-tab-pane"
         role="tabpanel"
         aria-labelledby="home-tab"
         tabindex="0"
       >
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/1.jpg?raw=true"
-            alt="Perrito"
-          />
+        <div class="row">
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              style="height: 240px"
+              alt="Personas Sonriendo"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/2.jpg?raw=true"
+              style="height: 240px"
+              alt="Personas Sonriendo"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
+              style="height: 240px"
+              alt="Bahia"
+            />
+          </div>
         </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/2.jpg?raw=true"
-            alt="Personas Sonriendo"
-          />
+        <div class="row">
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/4.jpg?raw=true"
+              style="height: 240px"
+              alt="Mujer Sonriendo"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/5.jpg?raw=true"
+              style="height: 240px"
+              alt="Torre Eifel"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
+              style="height: 240px"
+              alt="CR7"
+            />
+          </div>
         </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
-            alt="Bahia"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/4.jpg?raw=true"
-            alt="Mujer Sonriendo"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/5.jpg?raw=true"
-            alt="Torre Eifel"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
-            alt="CR7"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/7.jpg?raw=true"
-            alt="Familia en el Parque"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/8.jpg?raw=true"
-            alt="PC con Codigo"
-          />
-        </div>
-        <div class="col-4" style="height: 240px">
-          <img
-            class="objet-fit-cover"
-            src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/9.jpg?raw=true"
-            alt="Salon de Clase"
-          />
+        <div class="row">
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/7.jpg?raw=true"
+              style="height: 240px"
+              alt="Familia en el Parque"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/8.jpg?raw=true"
+              style="height: 240px"
+              alt="PC con Codigo"
+            />
+          </div>
+          <div class="col-4 p-1">
+            <img
+              class="object-fit-cover"
+              src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/9.jpg?raw=true"
+              style="height: 240px"
+              alt="Salon de Clase"
+            />
+          </div>
         </div>
       </div>
       <div
-        class="tab-pane fade"
+        class="tab-pane fade overflow-hidden"
         id="profile-tab-pane"
         role="tabpanel"
         aria-labelledby="profile-tab"
         tabindex="0"
       >
-        ...
+        <div class="row my-4 justify-content-center">
+          <div class="card col-6 p-0 my-4" style="width: 50rem">
+            <div class="card-header d-flex justify-content-between">
+              <p class="fw-semibold fs-3">My Crazy dog Spark!</p>
+              <p class="fw-semibold">08/26</p>
+            </div>
+            <div class="card-body p-0">
+              <img
+                src="https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixlib=rb-1.2.1&w=1080&fit=max&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+                alt="Spark"
+                style="height: 500px"
+                class="object-fit-cover img-fluid w-100 col-12"
+              />
+            </div>
+            <div class="card-footer text-body-secondary">
+              <strong>204 Likes</strong>
+              <p>
+                This is an example of a very good photo that you can post on
+                instagram
+              </p>
+            </div>
+          </div>
+          <div class="card col-6 p-0 my-4" style="width: 50rem">
+            <div class="card-header d-flex justify-content-between">
+              <p class="fw-semibold fs-3">The greatness of Croatia</p>
+              <p class="fw-semibold">04/09</p>
+            </div>
+            <div class="card-body p-0">
+              <img
+                src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/3.jpg?raw=true"
+                alt="Spark"
+                style="height: 500px"
+                class="object-fit-cover img-fluid w-100 col-12"
+              />
+            </div>
+            <div class="card-footer text-body-secondary">
+              <strong>26985 Likes</strong>
+              <p>
+                This is an example of a very good photo that you can post on
+                instagram
+              </p>
+            </div>
+          </div>
+          <div class="card col-6 p-0 my-4" style="width: 50rem">
+            <div class="card-header d-flex justify-content-between">
+              <p class="fw-semibold fs-3">Amazing GOAL by Cristiano!</p>
+              <p class="fw-semibold">06/10</p>
+            </div>
+            <div class="card-body p-0">
+              <img
+                src="https://github.com/4GeeksAcademy/instagram-photo-feed-bootstrap-ademontel/blob/main/img/6.jpg?raw=true"
+                alt="Spark"
+                style="height: 500px"
+                class="object-fit-cover img-fluid w-100 col-12"
+              />
+            </div>
+            <div class="card-footer text-body-secondary">
+              <strong>204 Likes</strong>
+              <p>
+                This is an example of a very good photo that you can post on
+                instagram
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
